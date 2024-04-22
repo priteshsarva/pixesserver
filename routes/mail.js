@@ -14,7 +14,6 @@ const transporter = nodemailer.createTransport({
     },
 });
 
-const html = 
 
 
 
@@ -32,8 +31,6 @@ const html =
 
 
 router.post('/', async (req, res) => {
-    console.log(process.env.USER_ID);
-    console.log(process.env.USER_PASSWORD);
 
     const data = req.body
     console.log(req.body);
